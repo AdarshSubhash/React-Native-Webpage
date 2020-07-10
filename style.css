@@ -1,0 +1,43 @@
+h1 {
+    color: brown;
+}
+
+.header {
+    border: solid #800080;
+    background-color:#bc8f8f;
+    display: flex;
+    justify-content: space-between;
+
+  
+}
+.content{
+    border:green;
+    background-color:#DA70D6;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border:green;
+    background-color:slateblue;
+}
+
+.item:hover{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border:green;
+    background-color: tomato;
+    opacity:0.33;
+}
+.Information{
+    border:green;
+    background-color: tomato;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    border:green;
+    background-color: tomato;
+}
